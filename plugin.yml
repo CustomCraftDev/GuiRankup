@@ -1,0 +1,29 @@
+name: GuiRankup
+main: xyz.undeaD_D.pokemononline.GuiRankup
+description: GuiRankup plugin
+depend: [Vault]
+version: 1.0
+author: undeaD_D
+website: http://www.pokemon-online.xyz/plugin/
+authors: [DieFriiks, CustomCraftDev, undeaD_D]
+database: false
+commands:
+  guirank:
+    usage: /guirank [playername]
+    description: Opens the GuiRank menu
+  guirank-reload:
+    usage: /guirank-reload
+    description: reloads the GuiRankup config.yml
+permissions:
+  guirank.use:
+    description: Gives access to the /guirank command
+    default: op
+  guirank.others:
+    description: Gives access to the /guirank <playername> command
+    default: op
+  guirank.reload:
+    description: Gives access to the /guirank-reload command
+    default: op
+  guirank.update:
+    description: Notifies you if an Update is available
+    default: op
