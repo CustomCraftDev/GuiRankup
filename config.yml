@@ -1,0 +1,58 @@
+settings:
+  debug: false
+  updater: true
+  prefix: '[GuiRanks]'
+
+msg:
+  noperm: 'You dont have enough permissions to do that.'
+  ingameonly: 'Command ingame only'
+  noplayer: 'Player not found.'
+  reloaded: 'was reloaded.'
+  bought: 'You already bought this item.'
+  locked: 'This item is Locked.'
+  money: 'Not enought money.'
+
+inventory:
+  size :18
+  size-info: 'muss ein vielfaches von 9 sein (9, 18, 27, ...)'
+  title: '&L&8Ranks'
+  sound-toggle: true
+  sound-type: 'CLICK'
+  sound-info: 'https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html'
+
+colors:
+  bought: '&a&l'
+  available: '&6&l'
+  locked: '&4&l'
+  info: 'die zeichen dürfen nicht nicht gleich sein!'
+
+lore:
+  bought: '&aYou own it'
+  available: '&3&lClick to buy'
+  locked: '&eYou must buy the previous one'
+  price: 'Price: '
+
+ranks:
+  amount: 3
+  amount-info: 'muss kleiner sein als das inventar. Es müssen genausoviele ranks darunter definiert werden ...'
+  locked-title: 'Locked'
+  locked-material: 'BARRIER'
+  ranks-info: 'die titel dürfen nicht gleich sein!'
+  0:
+    title: 'Beginner'
+    material: 'WOODEN_SWORD'
+    price: 400
+    group: 'beginner'
+    msg: 'You bought the Beginner Rank'
+  1:
+    title: 'Player'
+    material: 'WOODEN_SWORD'
+    price: 400
+    group: 'player'
+    msg: 'You bought the Player Rank'
+  2:
+    title: 'Master'
+    material: 'WOODEN_SWORD'
+    price: '00
+    group: 'master'
+    msg: 'You bought the Master Rank'
